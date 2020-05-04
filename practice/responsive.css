@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+  #modal {
+    display: block;
+  }
+  .header-right {
+    display: none;
+  }
+  header .icon {
+    display: block;
+  }
+  .main-section .image {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
