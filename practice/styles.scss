@@ -1,0 +1,118 @@
+
+*{
+  box-sizing: border-box;
+  h1{
+    font-size: 50px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    }
+}
+
+
+header{
+  background: skyblue;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  .header-left{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  .icon{
+    display: none;
+    margin-left: auto;
+    line-height: 50px;
+    font-size: 40px;
+  }
+  .header-right{
+    margin-left: auto;
+    line-height: 50px;
+    font-size: 40px;
+  }
+
+  #modal{
+    display: none;
+    width: 300px;
+    height: 400px;
+    background: rgba($color: gray, $alpha: 0.8);
+    position: absolute;
+    right: 0px;
+    .menu{
+      display: block;
+      color: rgb(76, 61, 209);
+      margin: 50px 0;
+      font-size: 30px;
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  } 
+  }
+
+  .main-section{
+    background: rgba(38, 52, 53, 0.3);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .image{
+      width: 20%;
+      display: inline-block;
+    }
+    #lorem{
+      font-size: 30px;
+    }
+  }
+
+  .section2{
+    padding-bottom: 50px;
+    .question{
+      margin-top: 20px;
+    }
+    .a{
+      display: none;
+      background: rgba(186, 190, 199, 0.5);
+    }
+    p{
+      text-align: center;
+      color: red;
+      font-size: 30px;
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+
+  .section3{
+    .item{
+      display: none;
+      width: 50%;
+      margin: 0 auto;
+    }
+    .active{
+      display: block;
+    }
+    .btn{
+      display: flex;
+    }
+    .index-btn{
+      margin-top: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      margin: 0 auto;
+    }
+  }
+
+  .section4{
+    text-align: center;
+    textarea{
+      margin-top: 30px;
+    }
+    p{
+      color: red;
+      display: none;
+    }
+  }

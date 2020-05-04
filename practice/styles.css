@@ -1,0 +1,140 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* h1 {
+  font-size: 50px;
+}
+
+* img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background: skyblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+header .header-left {
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+header .icon {
+  display: none;
+  margin-left: auto;
+  line-height: 50px;
+  font-size: 40px;
+}
+
+header .header-right {
+  margin-left: auto;
+  line-height: 50px;
+  font-size: 40px;
+}
+
+header #modal {
+  display: none;
+  width: 300px;
+  height: 400px;
+  background: rgba(128, 128, 128, 0.8);
+  position: absolute;
+  right: 0px;
+}
+
+header #modal .menu {
+  display: block;
+  color: #4c3dd1;
+  margin: 50px 0;
+  font-size: 30px;
+}
+
+header #modal .menu:hover {
+  text-decoration: none;
+}
+
+.main-section {
+  background: rgba(38, 52, 53, 0.3);
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.main-section .image {
+  width: 20%;
+  display: inline-block;
+}
+
+.main-section #lorem {
+  font-size: 30px;
+}
+
+.section2 {
+  padding-bottom: 50px;
+}
+
+.section2 .question {
+  margin-top: 20px;
+}
+
+.section2 .a {
+  display: none;
+  background: rgba(186, 190, 199, 0.5);
+}
+
+.section2 p {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.section3 .item {
+  display: none;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.section3 .active {
+  display: block;
+}
+
+.section3 .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section3 .index-btn {
+  margin-top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.section4 {
+  text-align: center;
+}
+
+.section4 textarea {
+  margin-top: 30px;
+}
+
+.section4 p {
+  color: red;
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */
